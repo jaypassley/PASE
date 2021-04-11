@@ -27,7 +27,7 @@
       padding-right:10%;
       padding-top: 20%;
     }
-  }
+  } 
   
   .navbar-right a{
     text-decoration:none;
@@ -233,13 +233,47 @@ img {
   margin-bottom: 20px;
 }
 
+.empty-space {
+  height: 520px;
+}
+
+@media only Screen and (max-width: 480px) {
+  .empty-space {
+    height: 220px;
+  }
+  
+}
+
+@media only Screen and (max-width: 360px) {
+  .empty-space {
+    height: 150px;
+  }
+  
+}
+
 .about-title {
 text-align: center;
 }
 
-.about-title h1,a {
-  color: purple;
+.about-title h1 {
+  color: blue;
   }
+
+  @media only Screen and (max-width: 480px) {
+    .about-title h1 {
+      color: blue;
+      font-size: 30px;
+      }
+    
+  }  
+
+  @media only Screen and (max-width: 360px) {
+    .about-title h1 {
+      color: blue;
+      font-size: 30px;
+      }
+    
+  }  
 
 
 .pa-person {
@@ -377,9 +411,7 @@ text-align: center;
   } 
 }
 
-.empty-space {
-  height: 520px;
-}
+
 
 
 /*footer*/
