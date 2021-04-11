@@ -13,6 +13,14 @@
     padding-top: 20px;
   }
 
+  @media only Screen and (max-width: 412px) {
+    .navbar-right{
+      float:right;
+      padding-right:10%;
+      padding-top: 20%;
+    }
+  }
+
   @media only Screen and (max-width: 360px) {
     .navbar-right{
       float:right;
@@ -36,11 +44,22 @@
   .navbar-logo{
     padding-left:30px;
     font-family:Arial;
-    font-size:30px;
+    font-size:10px;
     font-weight:bold;
     text-decoration:none;
     color:#fff; 
   }
+
+  @media only Screen and (max-width: 412px) {
+    .navbar-logo{
+      padding-left:5px;
+      font-family:Arial;
+      font-size:16px;
+      font-weight:bold;
+      text-decoration:none;
+      color:#fff; 
+    }
+  }  
 
   @media only Screen and (max-width: 360px) {
     .navbar-logo{
