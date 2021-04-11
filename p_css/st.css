@@ -44,7 +44,7 @@
   .navbar-logo{
     padding-left:30px;
     font-family:Arial;
-    font-size:10px;
+    font-size:30px;
     font-weight:bold;
     text-decoration:none;
     color:#fff; 
@@ -229,11 +229,20 @@ img {
 }
 
 /* About */
-.tm-persons {
+.p-info {
   margin-bottom: 20px;
 }
 
-.tm-person {
+.about-title {
+text-align: center;
+}
+
+.about-title h1,a {
+  color: purple;
+  }
+
+
+.pa-person {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -242,17 +251,17 @@ img {
 }
 
 @media (min-width: 420px) {
-  .tm-person {
+  .pa-person {
     flex-direction: row;
   }
 }
 
-.tm-person-description {
+.pa-person-description {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.tm-person-name {
+.pa-person-name {
   font-size: 1.6rem;
   font-weight: 300;
   color: #09C;
@@ -261,17 +270,17 @@ img {
 }
 
 @media (min-width: 420px) {
-  .tm-person-name {
+  .pa-person-name {
     margin-top: 0;
   }
 }
 
-.tm-person-title {
+.pa-person-title {
   color: #C39;
   margin-bottom: 20px;
 }
 
-.tm-person-about {
+.pa-person-about {
   margin-bottom: 20px;
 }
 
@@ -366,6 +375,10 @@ img {
     max-width: auto;
     margin: 0 auto 0 35px;
   } 
+}
+
+.empty-space {
+  height: 520px;
 }
 
 
